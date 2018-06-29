@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="yes"?>
+<Execucao>
+  <xs:schema id="Execucao" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Execucao" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="IK_Look">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID_Teste" type="xs:int" minOccurs="0" />
+                <xs:element name="Descricao_CasoTeste" type="xs:string" minOccurs="0" />
+                <xs:element name="Executar" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Operacao" type="xs:string" minOccurs="0" />
+                <xs:element name="ConfigID" type="xs:int" minOccurs="0" />
+                <xs:element name="SuiteID" type="xs:int" minOccurs="0" />
+                <xs:element name="TestCaseID" type="xs:int" minOccurs="0" />
+                <xs:element name="MassaDados" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MenuOpcao" type="xs:string" minOccurs="0" />
+                <xs:element name="SearchNomeLook" type="xs:string" minOccurs="0" />
+                <xs:element name="SearchCodigoInternoLook" type="xs:string" minOccurs="0" />
+                <xs:element name="SearchCodigoInternoProduto" type="xs:string" minOccurs="0" />
+                <xs:element name="SearchStatus" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirNome" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirCodigoInterno" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirCodigoYoutube" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirStatus" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirDesconto" type="xs:int" minOccurs="0" />
+                <xs:element name="InserirPorcentagem" type="xs:int" minOccurs="0" />
+                <xs:element name="InserirFabricante" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirNovoFabricante" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NovoFabricanteCodigoInterno" type="xs:string" minOccurs="0" />
+                <xs:element name="NovoFabricanteNome" type="xs:string" minOccurs="0" />
+                <xs:element name="NovoFabricanteMenu" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirDataLancamento" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirCompraCompleta" type="xs:boolean" minOccurs="0" />
+                <xs:element name="InserirCompraCompletaClientePodeAlterarQuantidadeItens" type="xs:boolean" minOccurs="0" />
+                <xs:element name="InserirCompraCompletaSkuEmGrade" type="xs:boolean" minOccurs="0" />
+                <xs:element name="InserirCategorias" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirNovaCategoria" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NovaCategoriaNome" type="xs:string" minOccurs="0" />
+                <xs:element name="NovaCategoriaCodigoInterno" type="xs:string" minOccurs="0" />
+                <xs:element name="NovaCategoriaPai" type="xs:string" minOccurs="0" />
+                <xs:element name="NovaCategoriaMenu" type="xs:string" minOccurs="0" />
+                <xs:element name="NovaCategoriaStatus" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirDescricao" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirLongPage" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirOcasiao" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirEstilo" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirTendencia" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirNomeProduto" type="xs:string" minOccurs="0" />
+                <xs:element name="InserirCodigoInternoProduto" type="xs:string" minOccurs="0" />
+                <xs:element name="InserrirQuantidadeProdutoSkuSelecionado" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <IK_Look>
+    <ID_Teste>1</ID_Teste>
+    <Descricao_CasoTeste>Consulta</Descricao_CasoTeste>
+    <Executar>true</Executar>
+    <Operacao>C</Operacao>
+    <ConfigID>1</ConfigID>
+    <SuiteID>1</SuiteID>
+    <TestCaseID>1</TestCaseID>
+    <MassaDados>false</MassaDados>
+    <MenuOpcao>Consulta</MenuOpcao>
+    <SearchNomeLook>Teste</SearchNomeLook>
+    <SearchStatus>Ativo</SearchStatus>
+  </IK_Look>
+  <IK_Look>
+    <ID_Teste>2</ID_Teste>
+    <Descricao_CasoTeste>Inserir Novo Look</Descricao_CasoTeste>
+    <Executar>true</Executar>
+    <Operacao>I</Operacao>
+    <ConfigID>1</ConfigID>
+    <SuiteID>1</SuiteID>
+    <TestCaseID>2</TestCaseID>
+    <MassaDados>false</MassaDados>
+    <MenuOpcao>Consulta</MenuOpcao>
+    <InserirNome>Teste Automatizado</InserirNome>
+    <InserirCodigoInterno>Look_0001</InserirCodigoInterno>
+    <InserirCodigoYoutube>https://www.youtube.com/watch?v=59J9Eqslfbg</InserirCodigoYoutube>
+    <InserirStatus>Ativo</InserirStatus>
+    <InserirDesconto>10</InserirDesconto>
+    <InserirPorcentagem>1000</InserirPorcentagem>
+    <InserirNovoFabricante>true</InserirNovoFabricante>
+    <NovoFabricanteCodigoInterno>Fab_0001</NovoFabricanteCodigoInterno>
+    <NovoFabricanteNome>Fabricante testes automatizados</NovoFabricanteNome>
+    <InserirDataLancamento>20180629</InserirDataLancamento>
+    <InserirCompraCompleta>false</InserirCompraCompleta>
+    <InserirCompraCompletaClientePodeAlterarQuantidadeItens>false</InserirCompraCompletaClientePodeAlterarQuantidadeItens>
+    <InserirCompraCompletaSkuEmGrade>false</InserirCompraCompletaSkuEmGrade>
+    <InserirCategorias>Cat_0001</InserirCategorias>
+    <InserirNovaCategoria>true</InserirNovaCategoria>
+    <NovaCategoriaNome>Categoria testes automatizados</NovaCategoriaNome>
+    <NovaCategoriaCodigoInterno>Cat_0001</NovaCategoriaCodigoInterno>
+    <NovaCategoriaStatus>Ativo</NovaCategoriaStatus>
+    <InserirDescricao>TEXTO AUTOMATIZADO ------  O contexto pode ser explícito, quando é expresso por palavras (o texto em que se encontra a frase ou a frase em que se encontra a palavra), ou implícito, quando está embutido na situação em que o texto é produzido. Logo, a simples mudança de contexto faz com que a palavra “madeira” seja interpretada de maneiras diferentes. Na primeira situação, embora a palavra esteja dentro de um livro, ela está totalmente fora de contexto, por isso não produz sentido algum. </InserirDescricao>
+    <InserirOcasiao>Look Ocadiao</InserirOcasiao>
+    <InserirEstilo>Look Estilo</InserirEstilo>
+    <InserirTendencia>Look Tendencia</InserirTendencia>
+    <InserirNomeProduto>Produto Automatizado</InserirNomeProduto>
+    <InserirCodigoInternoProduto>Pro_0001</InserirCodigoInternoProduto>
+    <InserrirQuantidadeProdutoSkuSelecionado>1</InserrirQuantidadeProdutoSkuSelecionado>
+  </IK_Look>
+</Execucao>
